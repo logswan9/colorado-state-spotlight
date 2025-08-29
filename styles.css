@@ -1,0 +1,673 @@
+body {
+    background-color: #CCC5B9;
+}
+
+#wrapper {
+    font-family: 'Times New Roman', Courier, monospace;
+    background-color: #FFFCF2;
+    width: 100%;
+    border-radius: 15px;
+}
+
+header {
+    height: 125px;
+    display: flex;
+}
+
+#header-wrapper {
+    background-color: #CCC5B9;
+    height: 125px;
+    
+}
+
+#citiesDropDown > ul > li {
+    visibility: hidden;
+}
+
+#head-1 {
+    width: 50%;
+    text-align: left;
+}
+
+#head-1 > div {
+    position: relative;
+    bottom: 15%;
+    
+}
+
+#banner {
+    display: block;
+    margin-left: 7.8%;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 2px gray;
+}
+
+#head-2 {
+    width: 50%;
+    text-align: center;
+}
+
+#citiesDropDown {
+    display:block
+    
+}
+
+#citiesDropDown > ul {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+
+#home {
+    display: block;
+}
+
+#sign {
+    display: block;
+}
+
+nav {
+    position: relative;
+    height: 100px;
+    top: 25%;
+   
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 100%;
+    /* gap: 10px; */
+}
+
+
+
+#nav div {
+    text-align: center;
+    margin-right: 10%;
+}
+
+#home {
+    position: relative;
+    top: 5%;
+}
+
+
+ul {
+    position: relative;
+    top: 5%;
+}
+
+#sign {
+    position: relative;
+    top: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border-color: black;
+    border-style: groove;
+    border-right: 10px;
+    border-left: 10px;
+    border-top: 10px;
+    border-radius: 0px;
+}
+
+.navBtnsP {
+    background-color: #CCC5B9;
+    width: 8.5rem;
+    height: 4rem;
+    border-radius: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.navBtns {
+    background-color: #CCC5B9;
+    width: 8.5rem;
+    height: 4rem;
+    border-radius: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.navBtns:hover {
+    background-color: #b9b3a9;
+    cursor: pointer;
+}
+
+#citiesTag:hover + li {
+    animation-duration: 200ms;
+    animation-name: flip-fade-in;
+    
+}
+
+#citiesTag:hover + li + li {
+    animation-duration: 300ms;
+    animation-name: flip-fade-in;
+}
+
+#citiesTag:hover + li + li + li {
+    animation-duration: 400ms;
+    animation-name: flip-fade-in;
+}
+
+
+
+
+#main-wrapper {
+    display: flex;
+    background-color: #FFFCF2;
+    border-radius: 15px;
+}
+
+
+#main-half-1 {
+    width: 50%;
+    padding-right: 45px;
+    border-radius: 15px;
+}
+
+#main-half-2 {
+    width: 50%;
+    display: flex;
+    padding-left: 45px;
+    flex-direction: column;
+}
+
+.main-half-2-flex {
+    height: 33%;
+    padding-top: 60px;
+    padding-bottom:60px;
+}
+
+#main-denver-img {
+    display: block;
+}
+
+#main-boulder-img {
+    display: block;
+    
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto; 
+}
+
+.imgBorder {
+    max-width: 80%;
+    display: inline-block;
+    border: 1px;
+    border-style: groove;
+    border-color: #CCC5B9;
+    padding: 5px;
+    
+    
+}
+
+.main-half-2-flex {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#main-half-2-infoAndButton {
+    width: 66%;
+}
+
+#main-half-2-p2-infoAndButton {
+    width: 80%;
+    
+}
+
+
+#main-half-2-infoAndButton > section {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    font-size: 22px;
+    border-top: 0px;
+    border-bottom: 4px;
+    border-left: 4px;
+    border-right: 0px;
+    border-color: #CCC5B9;
+    border-style: groove;
+    margin-right: 30px;
+    border-radius: 5px;
+    margin-top: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#main-half-2-p2-infoAndButton > section {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    font-size: 22px;
+    border-top: 0px;
+    border-bottom: 4px;
+    border-left: 4px;
+    border-right: 0px;
+    border-color: #CCC5B9;
+    border-style: groove;
+    margin-right: 30px;
+    border-radius: 5px;
+    margin-top: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h4 {
+    display: inline;
+}
+
+#learnMoreDenver {
+    margin-top: 10px;
+    float: right;
+    margin-right: 25px;
+    height: 60px;
+    width: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    border: none;
+    background-color: #CCC5B9;
+    border-radius: 15px;
+}
+
+#learnMoreDenver:hover {
+    cursor: pointer;
+    background-color: #b9b3a9;
+}
+
+#learnMoreBoulder {
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+    height: 60px;
+    width: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    border: none;
+    background-color: #CCC5B9;
+    border-radius: 15px;
+}
+
+#learnMoreBoulder:hover {
+    cursor: pointer;
+    background-color: #b9b3a9;
+}
+
+#learnMoreFC {
+    margin-top: 10px;
+    float: right;
+    margin-right: 25px;
+    height: 60px;
+    width: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    border: none;
+    background-color: #CCC5B9;
+    border-radius: 15px;
+}
+
+#learnMoreFC:hover {
+    cursor: pointer;
+    background-color: #b9b3a9;
+}
+
+#main-half-2-img {
+   display: inline-block;
+   width: 45%;
+}
+
+#main-half-1-header {
+    padding-left: 75px;
+    font-size: 45px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    
+}
+
+#main-half-1-section {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    padding-left: 75px;
+    font-size: 22px;
+}
+
+
+
+#main-half-1-img-div {
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+#main-half-1-aside {
+    width: 50%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-style: italic;
+    
+}
+
+#main-half-2-aside {
+    width: 70%;
+    padding-left: 15px;
+    margin-left: 15px;
+    /* margin-bottom: 20px; */
+    margin-top: 8px;
+    font-size: 18px;
+    font-style: italic;
+    
+}
+
+
+
+
+
+
+
+
+
+#main-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#cityHeader {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#cityHeader + section {
+    text-align: center;
+}
+
+.imgBorder2 {
+    max-width: 80%;
+    display: inline-block;
+    border: 1px;
+    border-style: groove;
+    border-color: #CCC5B9;
+    padding: 5px;
+    
+}
+
+#main-wrapper-1 {
+    margin-bottom: 30px;
+}
+
+
+#main-wrapper-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 50px;
+}
+#main-wrapper-3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+
+#main-wrapper-2-aside {
+    position: relative;
+    text-align: center;
+    height: 50%;
+    padding-top: 15%;
+    padding-left: 30px;
+    width: 20%;
+    font-style: italic;
+    font-size: 18px;
+}
+
+
+
+#div-1-mh2 {
+    width: 50%;
+    display: flex;
+    margin-left: 40px;
+}
+
+#div-1-mh3 {
+    width: 33%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+#third-div-mw2 {
+    
+    /* margin-left: 200px; */
+    text-align: center;
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    
+}
+
+#third-div-mw2 > section {
+    top: 25%;
+    position: relative;
+}
+
+#denImg2 {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+
+#citySection {
+    margin-right: 25%;
+    margin-left: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+} 
+
+#mw2-section {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    width: 75%;
+}
+
+#wikiLink {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+#wikiBtn {
+    width: 55px;
+    height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    border: none;
+    background-color: #CCC5B9;
+    border-radius: 15px;
+}
+
+#wikiBtn:hover {
+    cursor: pointer;
+    background-color: #b9b3a9;
+}
+
+
+
+
+#ol-table {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#ol {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table, th, td {
+    border:1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+td {
+    text-align: center;
+}
+
+figure {
+    margin-top: 0px;
+}
+
+
+
+
+
+
+#main-wrapper-sign {
+    display: flex;
+    justify-content: center;
+    background-color: #beb8ac;
+}
+
+
+#form-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #FFFCF2;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#signup-mes {
+    background-color: #beb8ac;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#signup-mes-h1 {
+    background-color: #beb8ac;
+    margin: 0px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+}
+
+#signup-img {
+    max-width: 800px;
+    /* width: 600px; */
+    display: block;
+    
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#div-sign-img {
+    display: flex;
+    justify-content: center;
+}
+
+.label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+.textBoxForm {
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    border-radius: 3px;
+}
+
+.textAreaForm {
+    width: 250px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+#btnDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#submitBtn {
+    width: 125px;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    height: 60px;
+    width: 120px;
+    border: none;
+    background-color: #CCC5B9;
+    border-radius: 15px;
+}
+
+#submitBtn:hover {
+    cursor: pointer;
+    background-color: #b9b3a9;
+}
+
+
+#signature {
+    position: absolute;
+    background-color: #CCC5B9;
+    margin: 0;
+    left: 47%;
+    text-align: center;
+}
+
+
+@keyframes flip-fade-in {
+    0% {
+        opacity: 0%;
+        transform: rotate(0deg) scaleX(0);
+    }
+    25% {
+        opacity: 25%;
+        
+    }
+    50% {
+        opacity: 50%;
+    }
+    75% {
+        opacity: 75%;
+        
+    }
+    100% {
+        opacity: 100%;
+        
+    }
+    
+}

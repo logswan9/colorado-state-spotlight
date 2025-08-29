@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href='..\\favicon.ico'>
+    <title>State Spotlight: Sign Up</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header-wrapper">
+            <header>
+                <div id="head-1">
+                    <div>
+                        <h1 id="banner">State Spotlight</h1>
+                    </div>
+                    
+                </div>
+                
+                <div id="head-2">
+                    <nav>
+                        <div id="nav">
+                            <div>
+                                <a href="index.html"><button id="home" class="navBtns">Home</button></a>
+                            </div>
+                            
+                            <div id="citiesDropDown">
+                                
+                                <ul>
+                                    <a id="citiesTag"><button id="home" class="navBtnsP">Cities</button></a>
+                                    <li id="capitalCity"><a href="denver.html"><button id="home" class="navBtns">Denver</button></a></li>
+                                    <li id="city2"><a href="boulder.html"><button id="home" class="navBtns">Boulder</button></a></li>
+                                    <li id="city3"><a href="fortCollins.html"><button id="home" class="navBtns">Fort Collins</button></a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <a href="signUp.html" id="sign"><button id="home" class="navBtns">Sign-Up!</button></a> 
+                            </div>
+                            
+                        </div>
+                    </nav> 
+                </div>
+            </header>
+        </div>
+
+        <div id="signup-mes">
+            <h1 id="signup-mes-h1">Sign up for our Newsletter!</h1>
+            <div id="div-sign-img">
+                <img src="images/signup-banner.png" alt="Banner image containing colored states in the background with cartoon characters spread throughout." id="signup-img">
+            </div>
+        </div>
+        <div id="main-wrapper-sign">
+            <div id="form-container">
+                <form onsubmit="formSubmitted(event)">
+                    <label class="label" for="firstName">First Name:</label><br>
+                    <input class="textBoxForm" type="text" id="firstName"><br>
+                    
+                    <label class="label" for="lastName">Last Name:</label><br>
+                    <input class="textBoxForm" type="text" id="lastName"><br><br><br>
+                    
+                    <label class="label" for="email">Email Address:</label><br>
+                    <input class="textBoxForm" type="text" id="email"><br>
+
+                    <label class="label" for="emailConfirm">Confirm Email Address:</label><br>
+                    <input class="textBoxForm" type="text" id="emailConfirm"><br><br><br>
+
+                    <label class="label" for="questions">Enter any questions here:</label><br>
+                    <textarea class="textAreaForm" id="questions"></textarea><br><br>
+                    <br>
+
+                    <div id="btnDiv">
+                        <input id="submitBtn" type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <p id="signature">Made by Logan Swanson</p>
+    </div>
+
+    <footer>
+        <div>
+            <p>Sources:</p>
+            <p>Images from Various Wiki Pages for Colorado, Denver, Boulder, and Fort Collins. As well as a google search for certain images.</p>
+            <p>A lot of information was gathered from the wiki pages and google searches (First thing that popped up)</p>
+            <p>For average income data: <a href="https://datausa.io/profile/geo/fort-collins-co">Fort Collins</a>, <a href="https://www.census.gov/quickfacts/fact/table/bouldercountycolorado/PST045223">Boulder</a>, <a href="https://www.point2homes.com/US/Neighborhood/CO/Denver-Demographics.html">Denver</a>, <a href="https://www.census.gov/quickfacts/fact/table/CO/BZA210222">Colorado as a whole</a></p>
+            <p><a href="https://www.thechurchnews.com/almanac/temples/fort-collins-colorado/">Church Imagery</a>, <a href="https://denverpublicart.org/public-arts/dancers/">Dancers</a>, <a href="https://www.colorado-demographics.com/cities_by_population">Top 5 most populated Cities Colorado</a>, <a href="https://www.colorado-demographics.com/richest_cities">Top 5 richest Cities Colorado</a></p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
